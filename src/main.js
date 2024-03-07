@@ -51,3 +51,20 @@ const app = createApp(App)
 app.use(router)
 
 app.mount('#app')
+
+document.addEventListener("DOMContentLoaded", function() {
+  const container = document.getElementById('page');
+  const svg = document.getElementById('border');
+  console.log('hi', svg);
+  console.log(container);
+  // Function to update the SVG dimensions to match the container div
+  function updateSVGDimensions() {
+      const containerRect = container.getBoundingClientRect();
+      svg.setAttribute('width', containerRect.width);
+      svg.setAttribute('height', containerRect.height);
+  }
+
+  // Call the function initially and whenever the window is resized
+  updateSVGDimensions();
+  window.addEventListener('resize', updateSVGDimensions);
+});

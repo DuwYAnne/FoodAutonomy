@@ -1,15 +1,16 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
 import Banner from './components/Banner.vue'
 import Home from './components/Home.vue'
 import Events from './components/Events.vue'
+
 </script>
 
 <template>
   <banner>
     <Banner/>
   </banner>
+
 </template>
 
 <style scoped>

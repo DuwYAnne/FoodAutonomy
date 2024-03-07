@@ -9,7 +9,7 @@ function mounted() {
 </script>
 
 <template>
-    <div class="fade mb-28 border-b-2 border-black w-full">
+    <div class="fade mb-28 border-b-2 border-[#01200f] w-full">
         <div class="header"> 
             <img class="hidden md:flex logo" src="../assets/muskrat.png" alt="muskrat" title="in search of Obamium crystals"/>
             <div style="display:inline-block;">
@@ -28,8 +28,8 @@ function mounted() {
 
         </div> 
     </div> 
-    <img class="logo mx-auto w-16 h-10 mb-16 md:mb-32" src="../assets/geo3.png" alt="muskrat" title="in search of Obamium crystals"/>
-    <router-view/>
+    <img class="logo mx-auto w-16 h-10 mb-16 md:mb-32" src="../assets/geo3.png" alt="muskrat" title="a real mystery"/>
+  <router-view id="router-view"/>
 </template>
 
 <style scoped>

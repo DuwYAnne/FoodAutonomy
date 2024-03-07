@@ -30,7 +30,7 @@
         </Accordion>
       </main>
     </div>
-    <p class="info text fade text-base text-center text-amber-600 text-bold">
+    <p class="info text fade text-base text-center text-red-600 text-bold">
         Contact us for any further questions at <a class="underline" href="mailto:ucfoodautonomy@protonmail.com">ucfoodautonomy@protonmail.com</a> 
     </p>
 </template>

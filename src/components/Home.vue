@@ -1,7 +1,8 @@
 <script setup>
-function mounted() {
-    console.log("home")
-}
+  import Border from './Border.vue';
+  function mounted() {
+      console.log("home")
+  }
 </script>
 
 <template>
