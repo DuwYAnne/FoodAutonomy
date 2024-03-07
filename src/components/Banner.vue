@@ -29,7 +29,9 @@ function mounted() {
         </div> 
     </div> 
     <img class="logo mx-auto w-16 h-10 mb-16 md:mb-32" src="../assets/geo3.png" alt="muskrat" title="a real mystery"/>
-  <router-view id="router-view"/>
+  <div class="ml-24 mr-24 pb-28 pt-8 mb-28 border-[#f9a620] rounded-md border-4 border-double shadow-sm shadow-[#ffd449]">
+    <router-view id="router-view"/>
+  </div> 
 </template>
 
 <style scoped>
@@ -41,8 +43,8 @@ function mounted() {
 }
 
 .header img {
-  width: 10vw;
-  height: 10vw;
+  width: 100px;
+  height: 100px;
   float: left; 
 }
 
