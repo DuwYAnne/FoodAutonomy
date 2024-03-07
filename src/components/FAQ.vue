@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <div class="container">
+    <div class="container fade">
       <h1>Frequently Asked Questions</h1>
       <main>
         <Accordion
@@ -26,13 +26,6 @@
             <p class="text"> In the events tab, we have a teamup calendar that anyone is able to add to. <br>
             Please add your event and a short description as well as what time you'd prefer.<br>
             If you add an event, we recommended contacting us about the details of the space and to find a good location. 
-            </p>
-        </Accordion>
-        <Accordion
-        aria-title="out-of-town"
-        title="I'm from out of town, how can I participate?">
-            <p class="text"> We are intending to have a small, temporary campsite before and during the festival. We welcome you to camp there your entire stay (if we have enough people). <br>
-            We also can connect you with local housing if you need or the campsite falls through, please contact us for more details!
             </p>
         </Accordion>
       </main>

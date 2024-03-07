@@ -13,7 +13,7 @@ function mounted() {
         <div class="header"> 
             <img class="hidden md:flex logo" src="../assets/muskrat.png" alt="muskrat" title="in search of Obamium crystals"/>
             <div style="display:inline-block;">
-                <h1  class="font-bold text-3xl md:text-4xl lg:text-5xl">CU Food Autonomy Festival </h1>
+                <h1  class="font-bold text-3xl md:text-4xl lg:text-5xl">UC Food Autonomy Festival </h1>
                 <h3  class="hidden md:flex text-lg md:text-xl lg:text-2xl">
                     <router-link class="hover:text-xl hover:md:text-2xl hover:lg:text-3xl" to="/">Home</router-link>
                     <router-link class="hover:text-xl hover:md:text-2xl hover:lg:text-3xl" to="/about">About</router-link>
