@@ -38,7 +38,7 @@
 <style scoped>
 .text {
 
-  font-family: "Enriqueta", serif;
+  font-family: "Georgia", serif;
 }
 
 h1 {

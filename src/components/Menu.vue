@@ -1,9 +1,9 @@
 <template>
     <div class="wrapper">
-        <button class="transition-all italic font-bold" @click="active = !active" v-if="!active">Menu</button>
-        <button class="transition-all italic font-bold" @click="active = !active" v-if="active">Menu &#215</button>
+        <button class="transition-all font-bold" @click="active = !active" v-if="!active">Menu</button>
+        <button class="transition-all font-bold" @click="active = !active" v-if="active">Menu &#215</button>
         <transition name="fade">
-            <menu class="italic underline" v-if="active">
+            <menu class="underline" v-if="active">
                 <li><router-link to="/">Home</router-link></li>
                 <li><router-link to="/about">About</router-link></li>
                 <li><router-link to="/events">Events</router-link></li>
@@ -27,7 +27,7 @@
 </script>
 <style scoped>
     .wrapper {
-        font-family: "Enriqueta", serif;
+        font-family: "Garamond", serif;
     }
     .fade-enter-active {
         transition: all 0.3s ease-out;

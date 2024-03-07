@@ -51,7 +51,7 @@ function mounted() {
 }
 
 h1 {
-  font-family: "Verdana", sans-serif;
+  font-family: "Georgia", sans-serif;
   margin-top: 20px;
   margin-bottom: 15px;
 }
@@ -61,7 +61,7 @@ a {
 }
 
 h3 {
-  font-family: "Enriqueta", serif;
+  font-family: "Garamond", serif;
   position: relative;
 }
 

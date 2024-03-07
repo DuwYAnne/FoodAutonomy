@@ -17,11 +17,11 @@ function mounted() {
 <style scoped>
 .script {
     
-  font-family: "Monotype Corsiva", script;
+  font-family: "Brush Script MT", script;
   font-size: 3rem;
 }
 .text {
 
-  font-family: "Enriqueta", serif;
+  font-family: "Georgia", serif;
 }
 </style>

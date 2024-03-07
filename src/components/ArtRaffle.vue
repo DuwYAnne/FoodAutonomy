@@ -16,6 +16,6 @@ function mounted() {
 <style scoped>
 .text {
 
-  font-family: "Enriqueta", serif;
+  font-family: "Georgia", serif;
 }
 </style>
