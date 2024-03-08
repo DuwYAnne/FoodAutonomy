@@ -9,21 +9,21 @@
         <Accordion
         aria-title="location"
         title="Where is the festival located?">
-            <p class="text"> The festival location will be announced later, about a week before the event. <br>
+            <p class="text text-center"> The festival location will be announced later, about a week before the event. <br>
             The location is within a 20 minute bus ride from the University of Illinois campus, and a 12 minute bike ride. The distance is also walkable in 30-45 minutes! <br>
             </p>
         </Accordion>
         <Accordion
         aria-title="food"
         title="Will there be food? What about dietary restrictions?">
-            <p class="text"> Yes! We are planning on having enough food to serve over 100 people. If you want to donate food, please email us! <br>
+            <p class="text text-center"> Yes! We are planning on having enough food to serve over 100 people. If you want to donate food, please email us! <br>
             The food will be all vegan, gf, with nut free options as well. We encourage you to contact us about any other restrictions.
             </p>
         </Accordion>
         <Accordion
         aria-title="self-event"
         title="I want to host my own event!">
-            <p class="text"> In the events tab, we have a teamup calendar that anyone is able to add to. <br>
+            <p class="text text-center"> In the events tab, we have a teamup calendar that anyone is able to add to. <br>
             Please add your event and a short description as well as what time you'd prefer.<br>
             If you add an event, we recommended contacting us about the details of the space and to find a good location. 
             </p>

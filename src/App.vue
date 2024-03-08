@@ -6,11 +6,11 @@ import Events from './components/Events.vue'
 </script>
 
 <template>
-  <div class="image-container top-[500px] right-[50%] w-[100%] h-[90%] md:right-[65%] md:top-[600px] md:h-[80%] md:w-[80%] lg:top-[600px] lg:h-[60%] lg:w-[60%]">
-    <img src="./assets/bird.png"/>
+  <div class="image-container -bottom-32 right-[50%] w-[100%] h-[200%] md:right-[60%] md:w-[60%] lg:right-[70%] lg:w-[50%]">
+    <img class="absolute bottom-0" src="./assets/bird.png"/>
   </div>
-  <div class="image-container left-0 w-[70vw] h-[960px] md:h-[1280] lg:h-[1600px] xl:h-[1920px]">
-    <img src="./assets/vines.png"/>
+  <div class="image-container right-0 w-[70vw] h-[960px] md:h-[1280] lg:h-[1600px] xl:h-[1920px]">
+    <img class="right-0" src="./assets/vines.png"/>
   </div>
   <banner>
     <Banner/>
@@ -25,7 +25,7 @@ import Events from './components/Events.vue'
   margin: 0 auto 2rem;
 }
 .image-container {
-  position: absolute;
+  position: fixed;
   overflow: hidden;
   opacity: 0.3;
 }
