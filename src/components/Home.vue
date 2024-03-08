@@ -6,6 +6,7 @@
 </script>
 
 <template>
+  <div class="-ml-4 md:ml-20 -mr-4 md:mr-20 pl-4 pr-4 pb-28 pt-8 mb-28 border-[#f9a620] rounded-md border-4 border-double shadow-sm shadow-[#ffd449]">
     <p class="script fade text-center">Welcome!</p>
     <p class="info text fade text-base text-center">
         We invite you to the Champaign-Urbana Food Autonomy Festival on April 20th, 2024. <br>
@@ -13,6 +14,7 @@
         with skillshares and community hosted events. <br>
         There will be foraging, mushroom innoculation, tree/shrub planting, food, an art raffle, and more!
     </p>
+  </div>
 </template>
 
 <style scoped>

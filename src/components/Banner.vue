@@ -17,7 +17,7 @@ function mounted() {
                 <h3  class="hidden md:flex text-lg md:text-xl lg:text-2xl">
                     <router-link class="hover:text-xl hover:md:text-2xl hover:lg:text-3xl" to="/">Home</router-link>
                     <router-link class="hover:text-xl hover:md:text-2xl hover:lg:text-3xl" to="/about">About</router-link>
-                    <router-link class="hover:text-xl hover:md:text-2xl hover:lg:text-3xl" to="/events">Events</router-link>
+                    <router-link class="hover:text-xl hover:md:text-2xl hover:lg:text-3xl" to="/events">Event Calendar</router-link>
                     <router-link class="hover:text-xl hover:md:text-2xl hover:lg:text-3xl" to="/artraffle">Art Raffle</router-link>
                     <router-link class="hover:text-xl hover:md:text-2xl hover:lg:text-3xl" to="/faq">FAQ</router-link>
                 </h3>
@@ -28,8 +28,8 @@ function mounted() {
 
         </div> 
     </div> 
-    <img class="logo mx-auto w-16 h-10 mb-16 md:mb-32" src="../assets/geo3.png" alt="muskrat" title="a real mystery"/>
-  <div class="-ml-4 md:ml-20 -mr-4 md:mr-20 pl-4 pr-4 pb-28 pt-8 mb-28 border-[#f9a620] rounded-md border-4 border-double shadow-sm shadow-[#ffd449]">
+    <img class="logo mx-auto w-24 h-16 mb-16 md:mb-32" src="../assets/geo3.png" alt="muskrat" title="a real mystery"/>
+  <div>
     <router-view id="router-view"/>
   </div> 
 </template>

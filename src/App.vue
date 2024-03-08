@@ -7,6 +7,12 @@ import Events from './components/Events.vue'
 </script>
 
 <template>
+  <div class="bird top-[160%] right-[50%] w-[100%] h-[100%] md:right-[65%] md:top-[120%] md:h-[80%] md:w-[80%] lg:top-[90%] lg:h-[60%] lg:w-[60%] lg:top-[90%]">
+    <img src="./assets/bird.png"/>
+  </div>
+  <div class="smoke fixed bottom-[-500px] left-0 w-[150%] h-[400%]">
+    <img src="./assets/green_smoke.png"/>
+  </div>
   <banner>
     <Banner/>
   </banner>
@@ -21,6 +27,16 @@ import Events from './components/Events.vue'
 }
 
 @media (min-width: 512px) {
+  .bird {
+    position: absolute;
+    opacity: 0.3;
+  }
+  .smoke {
+    position: absolute;
+    opacity: 0.3;
+    overflow: hidden;
+    transform: rotateX(180deg);
+  }
   header {
     display: flex;
     place-items: center;
