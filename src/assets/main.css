@@ -31,12 +31,28 @@ a,
   animation-fill-mode: forwards;
 }
 
+.light-fade {
+  animation-delay: 10s;
+  animation: fadeInAnimationLight ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
 @keyframes fadeInAnimation {
   0% {
       opacity: 0;
   }
   100% {
       opacity: 1;
+  }
+}
+
+@keyframes fadeInAnimationLight {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 0.3;
   }
 }
 
@@ -47,7 +63,7 @@ a,
   body {
     display: flex;
     background-image: linear-gradient(to top left, #aab03c, #548c2f);
-    background-size: 300% 4000px;
+    background-size: 200% 4000px;
     animation: gradient 15s ease infinite;
     height: 100vh;
   }
