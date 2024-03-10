@@ -15,7 +15,6 @@ import Events from './components/Events.vue'
   <banner>
     <Banner/>
   </banner>
-
 </template>
 
 <style scoped>
