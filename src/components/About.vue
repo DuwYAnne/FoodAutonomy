@@ -24,12 +24,21 @@ function mounted() {
     <p class="info text fade text-base mb-8">
       You!
     </p>
+    <img src="../assets/test.gif" style="width:50%;position:relative;" class="mb-12" />
     <h1 class="text fade mb-2">
       Food Autonomy and Resistance
     </h1>
     <p class="info text fade text-base mb-8">
       Food autonomy and ecological sustainability are not isolated struggles. Just and equitable food systems are an impossibility in a system which values capital over lives and colonizers over the colonized. We are intertwined with fights around the world: the climate crisis, the genocide of Palestinians, the swelling of police militarization and surveillance, the continued attacks on trans and queer peoples, etc. Food autonomy should mean not only democratic and sovereign food systems, but also the abolishing of unjust social and economic structures. 
     </p>
+    <h1 class="test fade mb-2">
+      Will this event happen again?
+    </h1>
+    <p class="info text fade text-base mb-8">
+      Yes! Here is the website for the next iteration below
+    </p>
+    <div style="width:100%;height:0;padding-bottom:85%;position:relative;"><iframe src="../assets/test.gif" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+
   </div>
 </template>
 
