@@ -1,7 +1,7 @@
 <template>
     <div class="wrapper">
-        <button class="transition-all font-bold" @click="active = !active" @touchend="active = !active" v-if="!active">Menu</button>
-        <button class="transition-all font-bold" @click="active = !active" @touchend="active = !active" v-if="active">Menu &#215</button>
+        <button id="Button" class="transition-all font-bold" @click="active = !active" v-if="!active">Menu</button>
+        <button id="Button" class="transition-all font-bold" @click="active = !active" v-if="active">Menu &#215</button>
         <transition name="fade">
             <menu class="underline" v-if="active">
                 <li><router-link to="/">Home</router-link></li>
@@ -21,8 +21,18 @@
         active: false
       }
     },
-    methods: {
-    }
+    mounted() {
+        // Code to be executed after the component is mounted
+        console.log('Component mounted');
+        
+        // Example: Attaching event listener to a DOM element
+        const button = document.getElementById('Button');
+        if (button) {
+            console.log("yes button");
+        } else {
+            console.log("NO BUTTON");
+        }
+    },
   }
 </script>
 <style scoped>

@@ -16,7 +16,7 @@
       :arial-controls="'accordion-content-' + ariaTitle"
       :id="'accordion-control-' + ariaTitle"
       @click.prevent="togglePanel"
-      class="p-4 w-full font-bold flex flex-row items-center justify-between">
+      class="p-4 w-full font-bold flex flex-row items-center justify-between text-emerald-800">
       {{ title }}
       <span
         class="material-icons"

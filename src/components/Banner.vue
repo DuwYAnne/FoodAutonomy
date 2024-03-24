@@ -15,11 +15,11 @@ function mounted() {
             <div style="display:inline-block;">
                 <h1  class="font-bold text-3xl md:text-4xl lg:text-5xl">UC Food Autonomy Festival </h1>
                 <h3  class="hidden md:flex text-lg md:text-xl lg:text-2xl">
-                    <router-link class="hover:text-xl hover:md:text-2xl hover:lg:text-3xl" to="/">Home</router-link>
-                    <router-link class="hover:text-xl hover:md:text-2xl hover:lg:text-3xl" to="/about">About</router-link>
-                    <router-link class="hover:text-xl hover:md:text-2xl hover:lg:text-3xl" to="/events">Event Calendar</router-link>
-                    <router-link class="hover:text-xl hover:md:text-2xl hover:lg:text-3xl" to="/artraffle">Art Raffle</router-link>
-                    <router-link class="hover:text-xl hover:md:text-2xl hover:lg:text-3xl" to="/faq">FAQ</router-link>
+                    <router-link class="hover:text-xl hover:md:text-2xl hover:lg:text-3xl font-semibold" to="/">Home</router-link>
+                    <router-link class="hover:text-xl hover:md:text-2xl hover:lg:text-3xl font-semibold" to="/about">About</router-link>
+                    <router-link class="hover:text-xl hover:md:text-2xl hover:lg:text-3xl font-semibold" to="/events">Event Calendar</router-link>
+                    <router-link class="hover:text-xl hover:md:text-2xl hover:lg:text-3xl font-semibold" to="/artraffle">Art Raffle</router-link>
+                    <router-link class="hover:text-xl hover:md:text-2xl hover:lg:text-3xl font-semibold" to="/faq">FAQ</router-link>
                 </h3>
             </div>
             <div class="md:hidden">

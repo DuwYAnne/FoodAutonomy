@@ -5,6 +5,9 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  server: {
+    host: true // Listen on all available network interfaces
+  },
   plugins: [
     vue(),
   ],

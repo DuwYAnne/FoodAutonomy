@@ -4,7 +4,7 @@
 
 <template>
     <div class="container fade">
-      <h1>Frequently Asked Questions</h1>
+      <h1 class="font-bold">Frequently Asked Questions</h1>
       <main>
         <Accordion
         aria-title="location"

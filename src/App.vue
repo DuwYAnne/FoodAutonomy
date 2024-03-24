@@ -26,7 +26,8 @@ import Events from './components/Events.vue'
 .image-container {
   position: fixed;
   overflow: hidden;
-  opacity: 0.3;
+  opacity: 0.2;
+  z-index: -5;
 }
 @media (min-width: 512px) {
   
