@@ -6,7 +6,7 @@ function mounted() {
 
 <template>
     <div class="fade m-auto" style="border-radius: 10px; width: 500px; overflow: hidden;">  
-        <iframe src="https://teamup.com/ksxyum8ijv4pwd4m8q?date=2024-04-19&view=md2" 
+        <iframe src="https://teamup.com/ks6rbpnuabr7yrhwwk?date=2024-04-19&view=md2" 
             title="Schedule">
         </iframe>
     </div>
