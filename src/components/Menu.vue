@@ -1,7 +1,7 @@
 <template>
     <div class="wrapper">
-        <button class="transition-all font-bold" @click="active = !active" v-if="!active">Menu</button>
-        <button class="transition-all font-bold" @click="active = !active" v-if="active">Menu &#215</button>
+        <button class="transition-all font-bold" @click="active = !active" @touchend="active = !active" v-if="!active">Menu</button>
+        <button class="transition-all font-bold" @click="active = !active" @touchend="active = !active" v-if="active">Menu &#215</button>
         <transition name="fade">
             <menu class="underline" v-if="active">
                 <li><router-link to="/">Home</router-link></li>
