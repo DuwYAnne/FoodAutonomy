@@ -10,8 +10,11 @@ function mounted() {
         The art raffle is a community event crowdsourcing art and displaying them as a raffle. <br> If you're interested, think about creating a piece you'd like to raffle off! <br>
         We encourage any and all forms of art (as long as they are mobile), as there will be a gallery set up to host the raffle. <br>
         All raffle proceeds will go back directly do the artists who made the art piece. <br>
-        More details coming soon! Email us any early questions/ideas at <a class="underline" href="mailto:ucfoodautonomy@protonmail.com">ucfoodautonomy@protonmail.com</a> 
+        The art raffle will be hosted at the <b> ECHO CHAMBER </b>, Friday April 12, at 8:30pm.<br>
+        If you don't know where this is, please <a class="underline" href="mailto:ucfoodautonomy@protonmail.com">email us</a>  for details OR dm on instagram(@ucforestdefense). <br> 
     </p>
+    <p class="text text-center text-lg italic underline decoration-double	" > We're so excited to see you all! </p>
+    <img src="../assets/art-raffle.jpg" style="width: 50%; margin:auto"/>
   </div> 
 </template>
 
