@@ -8,7 +8,7 @@
                 <li><router-link to="/about">About</router-link></li>
                 <li><router-link to="/events">Event Calendar</router-link></li>
                 <li><router-link to="/artraffle">Art Raffle</router-link></li>
-                <li><router-link to="/faq">FAQ</router-link></li>
+                <li><router-link to="/faq">FAQ (See Location!)</router-link></li>
             </menu>
         </transition>
     </div>

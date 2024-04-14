@@ -19,7 +19,7 @@ function mounted() {
                     <router-link class="hover:text-xl hover:md:text-2xl hover:lg:text-3xl font-semibold" to="/about">About</router-link>
                     <router-link class="hover:text-xl hover:md:text-2xl hover:lg:text-3xl font-semibold" to="/events">Event Calendar</router-link>
                     <router-link class="hover:text-xl hover:md:text-2xl hover:lg:text-3xl font-semibold" to="/artraffle">Art Raffle</router-link>
-                    <router-link class="hover:text-xl hover:md:text-2xl hover:lg:text-3xl font-semibold" to="/faq">FAQ</router-link>
+                    <router-link class="hover:text-xl hover:md:text-2xl hover:lg:text-3xl font-semibold" to="/faq">FAQ (See Location!)</router-link>
                 </h3>
             </div>
             <div class="md:hidden">
@@ -28,7 +28,8 @@ function mounted() {
 
         </div> 
     </div> 
-    <img class="logo mx-auto w-24 h-16 mb-16 md:mb-32" src="../assets/geo3.png" alt="muskrat" title="a real mystery"/>
+    <img class="logo mx-auto w-24 h-16 mb-8 md:mb-16" src="../assets/geo3.png" alt="muskrat" title="a real mystery"/>
+    
   <div>
     <router-view id="router-view"/>
   </div> 
@@ -66,6 +67,5 @@ h3 {
   font-family: "Garamond", serif;
   position: relative;
 }
-
 
 </style>

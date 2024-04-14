@@ -29,6 +29,7 @@ import Events from './components/Events.vue'
   opacity: 0.2;
   z-index: -5;
 }
+
 @media (min-width: 512px) {
   
   .logo {

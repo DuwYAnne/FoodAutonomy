@@ -9,13 +9,22 @@
         <Accordion
         aria-title="location"
         title="Where is the festival located?">
-            <p class="text text-center"> The festival location will be announced later, about a week before the event. <br>
-            The location is within a 20 minute bus ride from the University of Illinois campus, and a 12 minute bike ride. The distance is also walkable in 30-45 minutes! <br>
+            <p class="text text-center"> The festival location is now out! The location is at the intersection of Lincoln Avenue and Windsor Road. <br>
+            The coordinates are (40.086,-88.215), and it is on the North South gravel road where the U of I Pollinitarium is. <br>
+            Image provided below for clarity! </br>
             </p>
+            <img class="m-auto w-full md:w-1/2" src="../assets/SAWmap_v1.png" />
         </Accordion>
         <Accordion
+        aria-title="travel"
+        title="How do I get to the location?">
+            <p class="text text-center"> You can use the university bus lines! We will have a map of this soon.</p>
+        </Accordion>
+        
+
+        <Accordion
         aria-title="food"
-        title="Will there be food? What about dietary restrictions?">
+        title="Will there be food?">
             <p class="text text-center"> Yes! We are planning on having enough food to serve over 100 people. If you want to donate food, please email us! <br>
             The food will be all vegan, gf, with nut free options as well. We encourage you to contact us about any other restrictions.
             </p>
@@ -26,6 +35,12 @@
             <p class="text text-center"> In the events tab, we have a teamup calendar that anyone is able to add to. <br>
             Please add your event and a short description as well as what time you'd prefer.<br>
             If you add an event, we recommended contacting us about the details of the space and to find a good location. 
+            </p>
+        </Accordion>
+        <Accordion
+        aria-title="groupchat"
+        title="Is there a newsletter?">
+            <p class="text text-center"> We have a signal group chat where you can talk about food autonomy and we will give updates.
             </p>
         </Accordion>
       </main>
