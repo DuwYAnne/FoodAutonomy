@@ -18,7 +18,9 @@
         <Accordion
         aria-title="travel"
         title="How do I get to the location?">
-            <p class="text text-center"> You can use the university bus lines! We will have a map of this soon.</p>
+            <p class="text text-center"> You can use the university bus lines!</p>
+            <img class="m-auto w-full md:w-1/2" src="../assets/bus-routes.png" />
+
         </Accordion>
         
 

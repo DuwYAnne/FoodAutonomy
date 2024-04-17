@@ -22,7 +22,7 @@
         We invite you to the Champaign-Urbana Food Autonomy Festival on April 20th, 2024. <br>
         The festival will be a gathering of people celebrating food sovereignty/autonomy <br> 
         with skillshares and community hosted events. <br>
-        There will be foraging, mushroom innoculation, discussion of land defense and other movements, food, and more!
+        There will be foraging, mushroom innoculation, tree planting, discussion of land defense movements, food, and more!
     </p>
   </div>
 </template>
