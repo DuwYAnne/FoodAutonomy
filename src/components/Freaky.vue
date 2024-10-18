@@ -1,7 +1,7 @@
 <script setup>
   import External from "/src/components/external.vue";
   import Form from "/src/components/externalform.vue";
-
+  console.log('hey there! vsauce here);
   var oldlink = document.getElementById("main-css");
   console.log(oldlink);
   oldlink.href = '/src/assets/freaky.css';
