@@ -13,24 +13,21 @@ function mounted() {
         <div class="header"> 
             <img class="hidden md:flex logo" src="../assets/muskrat.png" alt="muskrat" title="in search of Obamium crystals"/>
             <div style="display:inline-block;">
-                <h1  class="font-bold text-3xl md:text-4xl lg:text-5xl">UC Food Autonomy Festival </h1>
+                <h1  class="font-bold text-3xl md:text-4xl lg:text-5xl">UC Food Autonomy! </h1>
                 <h3  class="hidden md:flex text-lg md:text-xl lg:text-2xl">
                     <router-link class="hover:text-xl hover:md:text-2xl hover:lg:text-3xl font-semibold" to="/">Home</router-link>
                     <router-link class="hover:text-xl hover:md:text-2xl hover:lg:text-3xl font-semibold" to="/about">About</router-link>
-                    <router-link class="hover:text-xl hover:md:text-2xl hover:lg:text-3xl font-semibold" to="/events">Event Calendar</router-link>
-                    <router-link class="hover:text-xl hover:md:text-2xl hover:lg:text-3xl font-semibold" to="/artraffle">Art Raffle</router-link>
-                    <router-link class="hover:text-xl hover:md:text-2xl hover:lg:text-3xl font-semibold" to="/faq">FAQ (See Location!)</router-link>
+                    <router-link class="hover:text-xl hover:md:text-2xl hover:lg:text-3xl font-semibold" to="/resources">Resources</router-link>
                 </h3>
             </div>
             <div class="md:hidden">
             <Menu/>
             </div>
-
         </div> 
     </div> 
-    <img class="logo mx-auto w-24 h-16 mb-8 md:mb-16" src="../assets/geo3.png" alt="muskrat" title="a real mystery"/>
+    <!-- <img class="logo mx-auto w-24 h-16 mb-8 md:mb-16" src="../assets/geo3.png" alt="muskrat" title="a real mystery"/> -->
     
-  <div>
+  <div class="pt-16 pb-16">
     <router-view id="router-view"/>
   </div> 
 </template>

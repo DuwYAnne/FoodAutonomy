@@ -6,9 +6,8 @@
             <menu class="underline" v-if="active">
                 <li><router-link to="/">Home</router-link></li>
                 <li><router-link to="/about">About</router-link></li>
-                <li><router-link to="/events">Event Calendar</router-link></li>
-                <li><router-link to="/artraffle">Art Raffle</router-link></li>
-                <li><router-link to="/faq">FAQ (See Location!)</router-link></li>
+                <li><router-link to="/resources">Resources</router-link></li>
+
             </menu>
         </transition>
     </div>

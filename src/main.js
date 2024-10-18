@@ -1,15 +1,13 @@
-import './assets/main.css'
-import './assets/index.css'
-
 import { createApp, defineAsyncComponent } from 'vue'
 import { createRouter, createWebHistory } from 'vue-router'
 import App from './App.vue'
 
+
 const asyncHome = defineAsyncComponent(() => import('./components/Home.vue'))
 const asyncAbout = defineAsyncComponent(() => import('./components/About.vue'))
-const asyncEvents = defineAsyncComponent(() => import('./components/Events.vue'))
-const asyncArtRaffle = defineAsyncComponent(() => import('./components/ArtRaffle.vue'))
-const asyncFAQ = defineAsyncComponent(() => import('./components/FAQ.vue'))
+const asyncResources = defineAsyncComponent(() => import('./components/Resources.vue'))
+
+const asyncFreaky = defineAsyncComponent(() => import('./components/Freaky.vue'))
 const routes = [
     {
       path: '/',
@@ -22,19 +20,14 @@ const routes = [
       component: asyncAbout
     },
     {
-      path: '/events',
-      name: 'Events',
-      component: asyncEvents
+      path: '/resources',
+      name: 'Resources',
+      component: asyncResources
     },
     {
-      path: '/artraffle',
-      name: 'Art Raffle',
-      component: asyncArtRaffle
-    },
-    {
-      path: '/faq',
-      name: 'FAQ',
-      component: asyncFAQ
+      path: '/freaky',
+      name: 'Freaky',
+      component: asyncFreaky
     }
   ]
 // 3. Create the router instance and pass the `routes` option
