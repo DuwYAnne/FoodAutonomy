@@ -1,21 +1,31 @@
 <script setup>
+  import { onMounted, onUnmounted } from 'vue';
   import External from "/src/components/external.vue";
   import Form from "/src/components/externalform.vue";
-  console.log('hey there! vsauce here);
-  var oldlink = document.getElementById("main-css");
-  console.log(oldlink);
-  oldlink.href = '/src/assets/freaky.css';
-  
-  var header = document.getElementsByClassName('header')[0];
-  const parent = header.parentElement;
-
-  const nextSibling = header.nextSibling;
-
-  header.remove();
-
-  // editable paragraph
-
   import { db } from "/src/firebase.js";
+  var parent, nextSibling, header;
+  onMounted(() => {
+    document.body.style.backgroundImage = 'none';
+    document.body.style.backgroundColor = 'black';
+    header = document.getElementsByClassName('header')[0];
+    parent = header.parentElement;
+
+    nextSibling = header.nextSibling;
+
+    header.remove();
+
+    // editable paragraph
+  });
+  onUnmounted(() => {
+    if (nextSibling && parent) {
+      parent.insertBefore(header, nextSibling);
+    } else if (parent) {
+      parent.appendChild(header); // Append to the end if no next sibling
+    }
+    document.body.style.backgroundImage = 'linear-gradient(to top left, #FFFBC1, #B6E2A1, #FEBE8C)';
+    document.body.style.backgroundColor = 'white';
+
+  });
 </script>
 
 <template>
@@ -96,6 +106,9 @@
 </template>
 
 <style scoped>
+body {
+  background-color: rgb(0,0,0);
+}
 .top-gifs {
   position: absolute;
   top: 0px;
