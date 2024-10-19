@@ -1,18 +1,18 @@
 <template>
   <div class="pt-12">
     <form @submit.prevent="handleSubmit">
-      <label for="password">Password:</label><br>
+      <label class='text-yellow-300' for="password">Password:</label><br>
       <input 
         type="password" 
         id="password" 
         name="password" 
         v-model="password"
       /><br><br>
-      <label>change the text here or smth:</label><br>
+      <label class='text-yellow-300'>This modifies the body text. If you can change it to "PWNED" I'll give you a treat.</label><br>
 
       <textarea 
         v-model="text" 
-        placeholder="change the text to PWNED and I'll give you a treat"
+        placeholder="Text"
         id="textarea"
         rows="4" 
         cols="50"

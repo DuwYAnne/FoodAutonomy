@@ -1,7 +1,6 @@
 <template>
-  <div class="text-left" >
-    <p class="prairie-info-text text-[0.8em] md:text-xl lg:text-2xl fade mt-10"> Come have fun with us in the prairie ;3 </p>
-    <span class="prairie-info-text text-[0.8em] md:text-xl lg:text-2xl fade mt-10" v-html="formatText(text)"></span>
+  <div class="text-center md:text-left" >
+    <span class="prairie-info-text text-[0.75em] md:text-xl lg:text-2xl fade inline-block mt-24" v-html="formatText(text)"></span>
   </div>
 </template>
 

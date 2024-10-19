@@ -95,8 +95,8 @@
 
   <div class="rainbow-box -mt-24 md:-mt-12 ml-10 md:ml-20 mr-10 md:mr-20 mb-28 pb-[90%] md:pb-48">
     <div class="left-text">
-      <p class="prairie-freak-text text-[2rem] md:text-6xl lg: text-9xl fade text-center mt-10">Prairie <br> Freak <br> Fest</p>
-      <p class="prairie-date-text text-[1.75rem] md:text-5xl lg: text-8xl fade text-center mt-10">November <br> 8-11</p>
+      <p class="prairie-freak-text text-[1.5rem] md:text-6xl lg: text-9xl fade text-center mt-10">Prairie <br> Freak <br> Fest</p>
+      <p class="prairie-date-text text-[1.25rem] md:text-5xl lg: text-8xl fade text-center mt-10">Nov <br> 8-11</p>
     </div>
     <div class="right-text">
       <External />
@@ -153,6 +153,15 @@ body {
   .side-gif:nth-child(8) { top: 30em; }
   .side-gif:nth-child(9) { top: 40em; }
   .side-gif:nth-child(10) { top: 50em; }
+
+  .left-text {
+    flex: 1;
+    padding: 1%;
+  }
+  .right-text {
+    flex: 2;
+    padding: 1%;
+  }
 }
 @media (max-width: 767px) {
   .top-gif {
@@ -187,6 +196,15 @@ body {
   .side-gif:nth-child(8) { top: 21em; }
   .side-gif:nth-child(9) { top: 28em; }
   .side-gif:nth-child(10) { top: 35em; }
+
+  .left-text {
+    flex: 1;
+    margin-left: -0.5em;
+  }
+  .right-text {
+    flex: 2;
+    margin-left: -0.5em;
+  }
 }
 .prairie-info-text {
   font-family: "Old London";
@@ -239,12 +257,4 @@ body {
   border-image-slice: 1;
 }
 
-.left-text {
-  flex: 1;
-  padding: 1%;
-}
-.right-text {
-  flex: 2;
-  padding: 1%;
-}
 </style>
